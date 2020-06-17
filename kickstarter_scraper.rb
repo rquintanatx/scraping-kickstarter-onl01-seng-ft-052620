@@ -8,6 +8,8 @@ def create_project_hash
   binding.pry
 end
 
-# projects: kickstarter.css("li.project.grid_4")
+#projects: kickstarter.css("li.project.grid_4")
 #title: project.css("li.project.grid_4")
+#image link: projects.css("div.project-thumbnail a img").attribute("src").value
+
 create_project_hash
